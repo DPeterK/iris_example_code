@@ -1,0 +1,32 @@
+IRIS EXAMPLE CODE GUIDELINES
+
+Iris code examples are designed to present worked examples of common requests
+from the Met Office science community. These are things then that are a little
+out of the ordinary and/or a little complex but frequently used within Science.
+
+Worked examples should be in the form of an IPython notebook. This, and the
+notebook converted to html, should both be added to this repo and the html
+version of the notebook linked in the html landing page.
+
+As an Iris developer supplying a new code example then, it is requested that
+you observe the following guidelines.
+
+The guidelines, then, are:
+  1. Describe what is going on. Ideally there should be about as much prose
+     describing code steps shown as there is code.
+  2. Use sections. As much as possible, divide the worked example into sections
+     that encapsulate one element of the example overall.
+  3. Use pictures as appropriate. As is said, a picture paints a thousand
+     words. If appropriate then, consider adding a picture to help describe a
+     particularly complex point. If the worked example generates a plot,
+     include it!
+  4. Use sample data. The scope of these examples means it is necessary to use
+     Iris sample data to demonstrate the example.
+  5. Code considerations. The code should:
+     a) be able to run,
+     b) be Python code, as opposed to iPython notebook code (so not using any
+        shortcuts available in iPython notebooks), and
+     c) print versions of any software used, especially for Iris and Cartopy.
+  6. These should be worked examples, NOT teaching material. As such, the code
+     supplied should entirely demonstrate the point being made and exercises
+     for the reader should not be used.
