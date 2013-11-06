@@ -4,9 +4,10 @@ Iris code examples are designed to present worked examples of common requests
 from the Met Office science community. These are things then that are a little
 out of the ordinary and/or a little complex but frequently used within Science.
 
-Worked examples should be in the form of an IPython notebook. This, and the
-notebook converted to html, should both be added to this repo and the html
-version of the notebook linked in the html landing page.
+Worked examples should be in the form of an IPython notebook, which should be
+added to this repo and added to the index IPython notebook with a relevant link
+title and under a relevant sub-heading (feel free to make a new heading if it
+is necessary).
 
 As an Iris developer supplying a new code example then, it is requested that
 you observe the following guidelines.
