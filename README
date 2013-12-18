@@ -21,8 +21,14 @@ The guidelines, then, are:
      words. If appropriate then, consider adding a picture to help describe a
      particularly complex point. If the worked example generates a plot,
      include it!
-  4. Use sample data. The scope of these examples means it is necessary to use
-     Iris sample data to demonstrate the example.
+  4. As much as possible, use sample data. Doing so will keep this repo as trim
+     as possible and means that common data in a known location is being used
+     as standard.
+     On occasions where the specifics of the example being demonstrated require
+     a more targeted dataset, this may be included in the folder called
+     "sample_data" in the root of this repo. This is not the preferred
+     approach however, and the total size of added data should be limited as
+     far as is possible.
   5. Code considerations. The code should:
      a) be able to run,
      b) be Python code, as opposed to iPython notebook code (so not using any
